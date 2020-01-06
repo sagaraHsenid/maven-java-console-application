@@ -19,7 +19,7 @@ public class CalculatorApp {
             String command = scanner.nextLine();
 
             /* delimiter */
-            String delimiter = "-";
+            String delimiter = " ";
             /* given string will be split by the argument delimiter provided. */
             String[] splitCommand = command.split(delimiter);
 
